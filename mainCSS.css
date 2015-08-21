@@ -1,0 +1,82 @@
+body, a, p, td {
+	font-family: arial, sans-serif;
+}
+body {
+	color: #222;
+}
+.separar {
+	margin-top: 80px;
+	padding-top: 112px;
+}
+.logo {
+	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/logo11w.png);
+	background-repeat: no-repeat;
+	background-size: 269px 95px;
+	height: 95px;
+	width: 269px;
+}
+.pais {
+	color: #777;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	left: 218px;
+	top: 70px;
+	text-align: left;
+}
+.search {
+	margin-top: 25px;
+	position: relative;
+	text-align: center;
+}
+.iconSearch {
+	vertical-align: middle;
+	opacity: 0.6;
+}
+.realmic {
+	background-image: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/realmic.gif);
+	background-size: 14px 19px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.inputText {
+	width: 570px;
+	height:25px;
+	border: 1px solid #dcdcdc;
+	border-top: 1px solid #bababa;
+}
+.submit {
+	padding-top: 2px;
+}
+.submit1 {
+	height: 29px;
+	color: #444;
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 11px 8px;
+	padding: 0 8px;
+}
+.submit2 {
+	height: 29px;
+	color: #444;
+	background-color: #f5f5f5;
+	border: 1px solid #dcdcdc;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 11px 8px;
+	padding: 0 8px;
+	display:;
+}
+.textLang {
+	margin-top: 40px;
+	font-size: small;
+}
+a {
+	color: #12c;
+	text-decoration: none;
+}
+a:visited {
+	color: #609;
+}
