@@ -4,8 +4,52 @@ body, a, p, td {
 body {
 	color: #222;
 }
+.header {
+	height: 60px;
+	width: 100%;
+}
+ul {
+	text-align: right;
+	margin: 7px 15px 0 0;
+	font-size: small;
+}
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 11px;
+}
+a {
+	opacity: .75;
+	text-decoration: none;
+	color: #000;
+}
+.apps {
+	display: inline-block;
+	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/apps.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+}
+.alert {
+	display: inline-block;
+	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/alert.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+}
+.conta {
+	opacity: 1;
+	display: inline-block;
+	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/conta.jpg);
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	height: 32px;
+	width: 32px;
+}
 .separar {
-	margin-top: 80px;
 	padding-top: 112px;
 }
 .logo {
@@ -28,16 +72,22 @@ body {
 	margin-top: 25px;
 	position: relative;
 	text-align: center;
+	width: 570px;
 }
 .iconSearch {
 	vertical-align: middle;
 	opacity: 0.6;
 }
-.realmic {
-	background-image: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/realmic.gif);
-	background-size: 14px 19px;
+.realMic {
+	display: inline-block;
+	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/realmic.gif);
 	background-repeat: no-repeat;
-	background-position: right;
+	background-size: 15px 20px;
+	height: 20px;
+	width: 15px;
+	top: 4px;
+	right: 4px;
+	position: absolute;
 }
 .inputText {
 	width: 570px;
@@ -46,9 +96,6 @@ body {
 	border-top: 1px solid #bababa;
 }
 .submit {
-	padding-top: 2px;
-}
-.submit1 {
 	height: 29px;
 	color: #444;
 	background-color: #f5f5f5;
@@ -57,26 +104,51 @@ body {
 	font-weight: bold;
 	margin: 11px 8px;
 	padding: 0 8px;
-}
-.submit2 {
-	height: 29px;
-	color: #444;
-	background-color: #f5f5f5;
-	border: 1px solid #dcdcdc;
-	font-size: 11px;
-	font-weight: bold;
-	margin: 11px 8px;
-	padding: 0 8px;
-	display:;
 }
 .textLang {
 	margin-top: 40px;
 	font-size: small;
 }
-a {
+.textLang a {
 	color: #12c;
 	text-decoration: none;
 }
-a:visited {
+.textLang a:visited {
 	color: #609;
+}
+footer {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	left: 0;
+	right: 0;
+	position: absolute;
+	bottom: 0;
+}
+footer a {
+	color: #111;
+	text-decoration: none;
+}
+footer ul {
+    text-align: right;
+    margin: 0 0 0 0;
+    font-size: small;
+}
+footer li {
+	margin-right: 0;
+}
+
+.left {
+	float: left;
+	margin-left: 30px;
+}
+.right {
+	float: right;
+	margin-right: 30px;
+}
+#a {
+	padding-left: 27px;
+}
+#b {
+	padding-right: 27px;
 }
