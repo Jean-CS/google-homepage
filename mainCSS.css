@@ -25,7 +25,7 @@ a {
 }
 .apps {
 	display: inline-block;
-	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/apps.png);
+	background: url(https://raw.githubusercontent.com/Jean-CS/google-homepage/master/imagens/apps.png);
 	background-size: 20px 20px;
 	background-repeat: no-repeat;
 	height: 20px;
@@ -33,7 +33,7 @@ a {
 }
 .alert {
 	display: inline-block;
-	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/alert.png);
+	background: url(https://raw.githubusercontent.com/Jean-CS/google-homepage/master/imagens/alert.png);
 	background-size: 20px 20px;
 	background-repeat: no-repeat;
 	height: 20px;
@@ -42,7 +42,7 @@ a {
 .conta {
 	opacity: 1;
 	display: inline-block;
-	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/conta.jpg);
+	background: url(https://raw.githubusercontent.com/Jean-CS/google-homepage/master/imagens/conta.jpg);
 	background-size: 32px 32px;
 	background-repeat: no-repeat;
 	border-radius: 50%;
@@ -80,7 +80,7 @@ a {
 }
 .realMic {
 	display: inline-block;
-	background: url(C:/Users/Jean/the_odin_project/google-homepage/imagens/realmic.gif);
+	background: url(https://raw.githubusercontent.com/Jean-CS/google-homepage/master/imagens/realmic.gif);
 	background-repeat: no-repeat;
 	background-size: 15px 20px;
 	height: 20px;
